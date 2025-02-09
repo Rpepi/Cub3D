@@ -28,10 +28,6 @@ This project is inspired by the world-famous Wolfenstein 3D game, which
 was the first FPS ever. It will enable you to explore ray-casting. Your goal will be to
 make a dynamic view inside a maze, in which you’ll have to find your way.
 
-<p align="center">
-	<img src="./.images/screenshot.png" width=650>
-</p>
-
 ## ⚡ Raycasting
 >`Raycasting` simulates a 3D environment by casting rays from the player’s viewpoint to detect objects and walls. It calculates the distance and angle of each ray to render a corresponding vertical slice, creating the illusion of depth and perspective.
 <p align="center">
@@ -68,7 +64,7 @@ C  80, 0, 0
 
 > Then you can put a valid map
 
-A valid map has one `player`, all `floors` and `doors` (0/D) are surrounded by `walls` (1)
+A valid map has one `player`, all `floors` are surrounded by `walls` (1)
 
         1111111111111111111111111
         1000000000110000000000001
