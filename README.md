@@ -66,6 +66,7 @@ C  80, 0, 0
 
 A valid map has one `player`, all `floors` are surrounded by `walls` (1)
 
+```
         1111111111111111111111111
         1000000000110000000000001
         1011000001110000000000001
@@ -80,6 +81,7 @@ A valid map has one `player`, all `floors` are surrounded by `walls` (1)
 11000001110101011111011110N0111   111
 11110111 1110101 101111010001     101
 11111111 1111111 111111111111     111
+```
 
 ------------
 ## 📜 Key and features
